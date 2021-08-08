@@ -1,4 +1,6 @@
-### python setup.py sdist bdist_wheel upload -r pypi
+#### 发布命令
+
+    python setup.py sdist bdist_wheel upload -r pypi
 
 #### 安装命令
 
