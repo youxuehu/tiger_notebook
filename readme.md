@@ -5,3 +5,11 @@
 #### 安装命令
 
     pip install aistudio_notebook==1.1 -i https://pypi.python.org/pypi
+
+#### Dockerfile build
+
+    docker build . -t docker-image/miniconda:tiger_dev20210808
+    
+#### Dockerfile run
+
+    docker run -p 8888:8888 -it -d docker-image/miniconda:tiger_dev20210808
