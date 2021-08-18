@@ -12,7 +12,7 @@
     
 #### Dockerfile run
 
-    docker run -p 8888:8888 -it -d docker-image/miniconda:tiger_dev20210808
+    docker run -p 8888:8888 --restart always -it -d docker-image/miniconda:tiger_dev20210808
     
     
     jupyter notebook --allow-root
